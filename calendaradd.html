@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>スケジュール入力</title>
+</head>
+<body>
+<form action = "CalendarAddServlet" method = "post">
+<table>
+<tr>
+<td>日付</td>
+<td><input type="date" name="scheduledate"></td>
+</tr>
+
+<tr>
+<td>開始時間</td>
+<td><input type="time" name="starttime"></td>
+</tr>
+
+<tr>
+<td>終了時間</td>
+<td><input type="time" name="endtime"></td>
+</tr>
+
+<tr>
+<td>スケジュール</td>
+<td><input type="text" name="schedule"></td>
+</tr>
+
+<tr>
+<td>メモ</td>
+<td><input type="text" name="memo"></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="登録"></td>
+</tr>
+
+<tr>
+<td><a href="CalendarInfoServlet">メニューへ戻る</a></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
